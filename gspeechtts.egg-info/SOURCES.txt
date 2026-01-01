@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+gspeechtts/__init__.py
+gspeechtts/core.py
+gspeechtts.egg-info/PKG-INFO
+gspeechtts.egg-info/SOURCES.txt
+gspeechtts.egg-info/dependency_links.txt
+gspeechtts.egg-info/requires.txt
+gspeechtts.egg-info/top_level.txt

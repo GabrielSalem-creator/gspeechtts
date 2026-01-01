@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: gspeechtts
+Version: 0.1.0
+Summary: Unofficial GSpeech.io Text-to-Speech Python client
+Author: Gabriel Salem
+Project-URL: Homepage, https://gspeech.io
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+
+# GSpeechTTS
+
+Unofficial Python wrapper for GSpeech.io Text-to-Speech.
+
+## Install (local)
+```bash
+pip install .
+```
+
+## Usage
+```python
+from gspeechtts import GSpeechTTS
+
+tts = GSpeechTTS()
+tts.tts("Hello world", lang="en-US", voice="A-0")
+```
